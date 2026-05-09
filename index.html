@@ -11,8 +11,13 @@
   <meta property="og:description" content="Glycolic toner, mineral SPF, hydrogel masks, hyaluronic serum, retinol — handpicked for cold traffic that is tired of burning their face off.">
   <meta property="og:url" content="https://glam-v2.pages.dev">
   <meta property="og:site_name" content="GlamFinds">
+  <meta property="og:image" content="https://glam-v2.pages.dev/glam-v2.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="GlamFinds — Top 10 Skincare Serums & Moisturizers on Amazon 2026 (Derm-Friendly Routine)">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Best Skincare on Amazon — Top 10 for 2026">
+  <meta name="twitter:image" content="https://glam-v2.pages.dev/glam-v2.jpg">
   <meta name="twitter:description" content="Serums, SPF, masks, cleansers — beginner-friendly derm-adjacent picks.">
   <meta name="pinterest-rich-pin" content="true">
   <meta name="p:domain_verify" content="b808ad5a90186abbe2136c776720789f">
@@ -214,7 +219,17 @@ body::before{
 }
 @keyframes shimmer{0%{left:-100%}60%,100%{left:110%}}
 .btn-primary:hover{transform:scale(1.03);box-shadow:0 14px 50px rgba(251,146,60,.5)}
-.hero-cta-note{font-size:11px;color:var(--text3)}
+.hero-cta-note{font-size:11px;color:var(--text3);max-width:330px;line-height:1.35}
+.btn-secondary{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:46px;padding:13px 22px;
+  color:var(--text);font-size:14px;font-weight:700;
+  border:1px solid rgba(255,255,255,.18);
+  border-radius:50px;background:rgba(255,255,255,.06);
+}
+.btn-secondary:active{transform:scale(0.98)}
+.paid-note{display:block;margin-top:7px;font-size:10px;line-height:1.35;color:var(--text3);text-align:center}
+.exit-paid-note{display:block;margin-top:-10px;margin-bottom:16px;font-size:10px;color:var(--text3)}
 
 /* ── Disclosure ──────────────────────────────────────────── */
 .disclosure{
@@ -705,14 +720,15 @@ body::before{
       <div class="hero-badge">From <strong>$8 cleansers</strong> to derm SPF staples</div>
     </div>
     <div class="hero-cta-wrap">
-      <a href="#picks" class="btn-primary">Show me the skincare top 10 →</a>
-      <span class="hero-cta-note">No signup needed · Amazon links</span>
+      <a href="https://www.amazon.com/dp/B0DNLSXDCQ?tag=beautyfi06ecc-20" class="btn-primary" target="_blank" rel="sponsored nofollow noopener noreferrer" data-offer="hero-top-pick">See top beauty pick on Amazon →</a>
+      <a href="#picks" class="btn-secondary">Compare all 10 picks</a>
+      <span class="hero-cta-note">Paid affiliate link · I may earn a commission at no extra cost to you.</span>
     </div>
   </div>
 </section>
 
 <div class="disclosure wrap mt24" data-aos="fade-up">
-  As an Amazon Associate, GlamFinds earns from qualifying purchases. Affiliate links may earn us a commission at no extra cost to you.
+  As an Amazon Associate I earn from qualifying purchases. This page contains paid affiliate links; I may earn a commission at no extra cost to you.
 </div>
 
 <!-- Section 1: Featured Picks -->
@@ -741,9 +757,10 @@ body::before{
       <span class="cf-price">$12.99</span>
       <span class="cf-rt">4.6 · 52K+ reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0DNLSXDCQ?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0DNLSXDCQ?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price <span class="cf-btn-arrow">→</span>
     </a>
+    <span class="paid-note">Paid link - I may earn a commission.</span>
     <span class="cf-prime">✦ Usually ships with Prime</span>
   </div>
 </article>
@@ -764,9 +781,10 @@ body::before{
       <span class="cf-price">$41.99</span>
       <span class="cf-rt">4.7 · 22K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0DM3MN243?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0DM3MN243?tag=beautyfi06ecc-20" class="cf-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price <span class="cf-btn-arrow">→</span>
     </a>
+    <span class="paid-note">Paid link - I may earn a commission.</span>
     <span class="cf-prime">✦ Usually ships with Prime</span>
   </div>
 </article>
@@ -786,9 +804,10 @@ body::before{
       <span class="cr-price">$19.99</span>
       <span class="cr-rt">4.5 · 8K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0CWGSP1WY?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0CWGSP1WY?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -805,9 +824,10 @@ body::before{
       <span class="cr-price">$16.49</span>
       <span class="cr-rt">4.6 · 38K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0DN6NG52J?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0DN6NG52J?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
     </div>
@@ -891,9 +911,10 @@ body::before{
       <span class="cr-price">$17.99</span>
       <span class="cr-rt">4.7 · 15K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0GFP8SRX6?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0GFP8SRX6?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -910,9 +931,10 @@ body::before{
       <span class="cr-price">$26.99</span>
       <span class="cr-rt">4.5 · 6K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B0DRNYBX1T?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B0DRNYBX1T?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -929,9 +951,10 @@ body::before{
       <span class="cr-price">$19.99</span>
       <span class="cr-rt">4.4 · 110K+ reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B01EKUBU5Y?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B01EKUBU5Y?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
     </div>
@@ -990,9 +1013,10 @@ body::before{
       <span class="cr-price">$12.99</span>
       <span class="cr-rt">4.7 · 28K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B00QY1XZ4W?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B00QY1XZ4W?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -1009,9 +1033,10 @@ body::before{
       <span class="cr-price">$21.99</span>
       <span class="cr-rt">4.5 · 32K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B088419TZG?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B088419TZG?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
 
@@ -1028,9 +1053,10 @@ body::before{
       <span class="cr-price">$8.49</span>
       <span class="cr-rt">4.6 · 48K reviews</span>
     </div>
-    <a href="https://www.amazon.com/dp/B017PCGABI?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="nofollow noopener noreferrer">
+    <a href="https://www.amazon.com/dp/B017PCGABI?tag=beautyfi06ecc-20" class="cr-btn" target="_blank" rel="sponsored nofollow noopener noreferrer">
       Check Price →
     </a>
+      <span class="paid-note">Paid link - I may earn a commission.</span>
   </div>
 </article>
     </div>
@@ -1098,8 +1124,8 @@ body::before{
 
 <!-- Footer -->
 <footer class="footer">
-  <p>© 2026 GlamFinds. As an Amazon Associate, we earn from qualifying purchases.</p>
-  <p><a href="#">Privacy Policy</a> · <a href="#">Disclaimer</a></p>
+  <p>© 2026 GlamFinds. As an Amazon Associate I earn from qualifying purchases. This page contains paid affiliate links; I may earn a commission at no extra cost to you.</p>
+  <p><a href="/privacy/">Privacy Policy</a> · <a href="/terms/">Terms</a> · <a href="/disclaimer/">Affiliate Disclaimer</a> · <a href="/contact/">Contact</a></p>
   <p style="margin-top:8px;font-size:10px;color:var(--text3)">GlamFinds is an independent review site. We only recommend products we'd feel good giving to a friend.</p>
 </footer>
 
@@ -1108,13 +1134,13 @@ body::before{
   <div class="trust-item"><span>🔒</span> Secure</div>
   <div class="trust-item"><span>★</span> 4.3+ Avg</div>
   <div class="trust-item"><span>⚡</span> Prime</div>
-  <div class="trust-item"><span>✓</span> Verified Reviews</div>
+  <div class="trust-item"><span>✓</span> Review-based picks</div>
   <div class="trust-item"><span>🛒</span> Amazon</div>
 </div>
 
 <!-- Mobile sticky CTA -->
 <div class="mobile-cta">
-  <a href="#picks">Show best skincare pick →</a>
+  <a href="https://www.amazon.com/dp/B0DNLSXDCQ?tag=beautyfi06ecc-20" target="_blank" rel="sponsored nofollow noopener noreferrer">See top beauty pick on Amazon →</a>
 </div>
 
 <!-- Exit intent -->
@@ -1124,8 +1150,9 @@ body::before{
     <div class="exit-emoji">🧴</div>
     <h2 class="exit-title">Wait! #1 toner beginners actually finish</h2>
     <p class="exit-body">The Ordinary Glycolic-class staple — check Amazon&#x27;s price and patch-test tips in reviews before you dive in.</p>
+    <span class="exit-paid-note">Paid affiliate link - I may earn a commission.</span>
     <a href="https://www.amazon.com/dp/B0DNLSXDCQ?tag=beautyfi06ecc-20"
-       class="exit-btn" target="_blank" rel="nofollow noopener noreferrer"
+       class="exit-btn" target="_blank" rel="sponsored nofollow noopener noreferrer"
        onclick="closeExit()">
       Show me →
     </a>
